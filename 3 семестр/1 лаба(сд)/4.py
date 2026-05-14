@@ -1,0 +1,5 @@
+v1 = float(input("V1 = "))
+t1 = float(input("T1 = "))
+v2 = float(input("V2 = "))
+t2 = float(input("T2 = "))
+print(f"Температура равна {(v1 * t1 + v2 * t2) / (v1 + v2)}, объем равен {v1 + v2}")
